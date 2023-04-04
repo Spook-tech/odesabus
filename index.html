@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <meta charset="UTF-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230404203028"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230404203028"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body> 
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="site-address"> <a href="#">odessabus.com </a></div>
+          <div class="phone-block"> 
+            <div class="phone-block-icon"><img src="img/icons/phone.svg" alt=""/></div>
+            <ul class="phone-block-numbers"> 
+              <li> <a class="hover__effect-line" href="tel:380960304305">(096) 03 04 305</a></li>
+              <li> <a class="hover__effect-line" href="tel:380800304305">(0800) 304 305</a></li>
+            </ul>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header-link"> <a class="hover__effect-line" href="#">Про нас</a></li>
+              <li class="dropdown">
+                <div class="dropdown__title">Корисно</div>
+                <div class="dropdown__content-wrapper">
+                  <div class="dropdown__content">????????</div>
+                </div>
+              </li>
+              <li class="header-link"> <a class="hover__effect-line" href="#">Партнерам</a></li>
+              <li class="header-link"> <a class="hover__effect-line" href="#">Новини</a></li>
+              <li class="header-link"> <a class="hover__effect-line" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <div class="header__actions"> <a class="header__login" href="#">вхід</a>
+            <div class="header__lang dropdown">
+              <div class="dropdown__title">Укр</div>
+              <div class="dropdown__content-wrapper">
+                <div class="dropdown__content">????????</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="starter"> 
+          <div class="starter__container"> 
+            <div class="starter__text">
+              <div class="site-address starter-address"> <a href="#">odessabus.com </a></div>
+              <div class="starter-title">Національна мережа <span>автостанцій</span></div>
+              <div class="starter-subtitle">Регулярні автобусні рейси по Україні та Европі</div>
+            </div>
+            <form class="filters-block" action="URL"> 
+              <div class="filters-block__row"> 
+                <div class="filters-block-from filters-block-item">
+                  <div class="filters-block-input">
+                    <input type="text" id="from"/>
+                    <label for="from">Звідки</label>
+                  </div>
+                  <div class="filters-block__dropdown">
+                    <div class="filters-block__dropdown-text">Популярні напрямки</div>
+                    <ul class="filters-block__dropdown-list">
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                    </ul>
+                  </div>
+                  <div class="filters-block-icon">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21.3467 12.4999H6.66668C5.93334 12.4999 5.33334 13.0999 5.33334 13.8333C5.33334 14.5666 5.93334 15.1666 6.66668 15.1666H21.3467V17.5533C21.3467 18.1533 22.0667 18.4466 22.48 18.0199L26.1867 14.2999C26.44 14.0333 26.44 13.6199 26.1867 13.3533L22.48 9.63328C22.0667 9.20661 21.3467 9.51327 21.3467 10.0999V12.4999Z" fill="#702A66"></path>
+                      <path d="M10.3633 21.8333H25.0433C25.7766 21.8333 26.3766 22.4333 26.3766 23.1666C26.3766 23.9 25.7766 24.5 25.0433 24.5H10.3633V26.8866C10.3633 27.4866 9.64331 27.78 9.22998 27.3533L5.52332 23.6333C5.26998 23.3666 5.26998 22.9533 5.52332 22.6866L9.22998 18.9666C9.64331 18.54 10.3633 18.8466 10.3633 19.4333V21.8333Z" fill="#702A66"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="filters-block-place filters-block-item">
+                  <div class="filters-block-input">
+                    <input type="text" id="place"/>
+                    <label for="place">куди</label>
+                  </div>
+                  <div class="filters-block__dropdown">
+                    <div class="filters-block__dropdown-text">Популярні напрямки</div>
+                    <ul class="filters-block__dropdown-list">
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="filters-block-date filters-block-item">
+                  <div class="filters-block-input">
+                    <input type="text" id="date"/>
+                    <label for="date">Дата поїздки</label>
+                  </div>
+                  <div class="filters-block__dropdown">
+                    <div class="filters-block__dropdown-text">Популярні напрямки</div>
+                    <ul class="filters-block__dropdown-list">
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                      <li><span>Київ, </span>Україна</li>
+                    </ul>
+                  </div>
+                  <div class="filters-block-icon">
+                    <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_267)">
+                        <path d="M28.1846 3.41502H24.1221V1.29002C24.1222 1.00822 24.0236 0.737897 23.8479 0.538507C23.6722 0.339117 23.4338 0.226995 23.1852 0.226807C22.9366 0.226619 22.698 0.338381 22.5221 0.537505C22.3462 0.73663 22.2472 1.00681 22.2471 1.2886V3.41502H16.6221V1.29002C16.6222 1.15049 16.598 1.0123 16.5509 0.88336C16.5039 0.754416 16.4349 0.637235 16.3479 0.538507C16.2609 0.439779 16.1576 0.361437 16.0439 0.307956C15.9302 0.254474 15.8083 0.2269 15.6852 0.226807C15.4366 0.226619 15.198 0.33838 15.0221 0.537505C14.8462 0.73663 14.7472 1.00681 14.7471 1.2886V3.41502H9.12207V1.29002C9.12215 1.15049 9.09798 1.0123 9.05095 0.88336C9.00391 0.754416 8.93492 0.637235 8.84793 0.538507C8.76093 0.439779 8.65762 0.361437 8.54391 0.307956C8.4302 0.254474 8.30831 0.2269 8.1852 0.226807C7.93655 0.226619 7.69803 0.33838 7.5221 0.537505C7.34617 0.73663 7.24724 1.00681 7.24707 1.2886V3.41502H3.18457C2.52175 3.41501 1.88605 3.71333 1.41725 4.24438C0.94844 4.77542 0.684902 5.49573 0.68457 6.24693V31.3928C0.68457 32.1442 0.947962 32.8649 1.4168 33.3962C1.88564 33.9276 2.52153 34.2261 3.18457 34.2261H28.1846C28.8476 34.2261 29.4835 33.9276 29.9523 33.3962C30.4212 32.8649 30.6846 32.1442 30.6846 31.3928V6.24693C30.6842 5.49573 30.4207 4.77542 29.9519 4.24438C29.4831 3.71333 28.8474 3.41501 28.1846 3.41502ZM28.8096 31.3942C28.8096 31.5818 28.7439 31.7618 28.627 31.8945C28.51 32.0273 28.3514 32.1021 28.1858 32.1025H3.18457C3.01881 32.1025 2.85984 32.0279 2.74263 31.895C2.62542 31.7622 2.55957 31.582 2.55957 31.3942V6.24835C2.5599 6.06073 2.6259 5.88093 2.74307 5.7484C2.86024 5.61586 3.01903 5.54143 3.18457 5.54143H7.24707V7.66643C7.2469 7.94822 7.34552 8.21855 7.52122 8.41794C7.69691 8.61733 7.9353 8.72945 8.18395 8.72964C8.43259 8.72983 8.67111 8.61807 8.84704 8.41894C9.02297 8.21982 9.1219 7.94964 9.12207 7.66785V5.54143H14.7471V7.66643C14.7469 7.94822 14.8455 8.21855 15.0212 8.41794C15.1969 8.61733 15.4353 8.72945 15.6839 8.72964C15.9326 8.72983 16.1711 8.61807 16.347 8.41894C16.523 8.21982 16.6219 7.94964 16.6221 7.66785V5.54143H22.2471V7.66643C22.2469 7.94822 22.3455 8.21855 22.5212 8.41794C22.6969 8.61733 22.9353 8.72945 23.1839 8.72964C23.4326 8.72983 23.6711 8.61807 23.847 8.41894C24.023 8.21982 24.1219 7.94964 24.1221 7.66785V5.54143H28.1846C28.3499 5.54181 28.5084 5.61641 28.6253 5.7489C28.7422 5.88139 28.808 6.06098 28.8083 6.24835L28.8096 31.3942Z" fill="#702A66"></path>
+                        <path d="M7.24707 12.9773H10.9971V16.1648H7.24707V12.9773ZM7.24707 18.2898H10.9971V21.4773H7.24707V18.2898ZM7.24707 23.6023H10.9971V26.7898H7.24707V23.6023ZM13.8096 23.6023H17.5596V26.7898H13.8096V23.6023ZM13.8096 18.2898H17.5596V21.4773H13.8096V18.2898ZM13.8096 12.9773H17.5596V16.1648H13.8096V12.9773ZM20.3721 23.6023H24.1221V26.7898H20.3721V23.6023ZM20.3721 18.2898H24.1221V21.4773H20.3721V18.2898ZM20.3721 12.9773H24.1221V16.1648H20.3721V12.9773Z" fill="#702A66"></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_1_267">
+                          <rect width="30" height="34" fill="white" transform="translate(0.68457 0.227295)"></rect>
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div><a class="filters-block-btn filters-block-item" href="#">
+                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="19.75" cy="19.75" r="15.75" stroke="#FFF010" stroke-width="1.5"></circle>
+                    <path d="M16.25 19.75H19.75M19.75 19.75H23.25M19.75 19.75V23.25M19.75 19.75V16.25" stroke="#FFF010" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M38.671 37.2059C38.5613 37.3716 38.363 37.5698 37.9664 37.9664C37.5698 38.363 37.3716 38.5613 37.2059 38.671C36.2354 39.3137 34.9224 38.9825 34.3729 37.9563C34.2791 37.7811 34.1986 37.5125 34.0376 36.9752C33.8617 36.3882 33.7737 36.0947 33.7567 35.8881C33.6566 34.6719 34.6719 33.6566 35.8881 33.7567C36.0947 33.7737 36.3882 33.8617 36.9752 34.0376C37.5125 34.1986 37.7811 34.2791 37.9563 34.3729C38.9825 34.9224 39.3137 36.2354 38.671 37.2059Z" stroke="#FFF010" stroke-width="1.5" stroke-linecap="round"></path>
+                  </svg>знайти квиток </a>
+              </div>
+            </form>
+          </div>
+          <div class="swiper starter-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide starter-slide">
+                <div class="starter-slide__img">
+                  <div class="blur"></div><picture><source srcset="img/photos/starter-img1.webp" type="image/webp"><img src="img/photos/starter-img1.png" alt=""/></picture>
+                </div>
+              </div>
+              <div class="swiper-slide starter-slide">
+                <div class="starter-slide__img">
+                  <div class="blur"></div><picture><source srcset="img/photos/starter-img1.webp" type="image/webp"><img src="img/photos/starter-img1.png" alt=""/></picture>
+                </div>
+              </div>
+              <div class="swiper-slide starter-slide">
+                <div class="starter-slide__img">
+                  <div class="blur"></div><picture><source srcset="img/photos/starter-img1.webp" type="image/webp"><img src="img/photos/starter-img1.png" alt=""/></picture>
+                </div>
+              </div>
+            </div>
+            <div class="starter-swiper__buttons">
+              <div class="swiper-button-prev starter-button-prev starter-button"></div>
+              <div class="swiper-button-next starter-button-next starter-button"></div>
+            </div>
+          </div>
+        </section>
+        <section class="advantages"> 
+          <div class="advantages__container"> 
+            <div class="advantages__text title__top">
+              <h2>наші переваги</h2>
+              <div class="title__text">Ми гарантуємо нашим покупцям підтримку та вирішення будь-яких питань, пов'язаних з купівлею квитка в інтернеті та його використанням на автовокзалі.</div>
+            </div>
+            <div class="advantages__row"> 
+              <div class="advantages__items"> 
+                <div class="advantages-item">
+                  <div class="advantages-item__img"> <img src="img/icons/shield.svg" alt=""/></div>
+                  <div class="advantages-item__text">Офіційний сайт мережі Автостанцій по Одеській області</div>
+                </div>
+                <div class="advantages-item">
+                  <div class="advantages-item__img"> <img src="img/icons/security.svg" alt=""/></div>
+                  <div class="advantages-item__text">Тільки перевірені офіційні маршрути</div>
+                </div>
+                <div class="advantages-item">
+                  <div class="advantages-item__img"> <img src="img/icons/profile.svg" alt=""/></div>
+                  <div class="advantages-item__text">Гарантії повернення квитка</div>
+                </div>
+                <div class="advantages-item">
+                  <div class="advantages-item__img"> <img src="img/icons/hearts.svg" alt=""/></div>
+                  <div class="advantages-item__text">Cупровід клієнта від вибору рейсу до посадки на автобус</div>
+                </div>
+              </div>
+              <div class="advantages__gallery">
+                <div class="advantages__gallery-item"><picture><source srcset="img/gallery/gallery-img1.webp" type="image/webp"><img src="img/gallery/gallery-img1.png" alt=""/></picture></div>
+                <div class="advantages__gallery-item"><picture><source srcset="img/gallery/gallery-img2.webp" type="image/webp"><img src="img/gallery/gallery-img2.png" alt=""/></picture></div>
+                <div class="advantages__gallery-item"><picture><source srcset="img/gallery/gallery-img3.webp" type="image/webp"><img src="img/gallery/gallery-img3.png" alt=""/></picture></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="destinations">
+          <div class="destinations__container"> 
+            <div class="destinations__text title__top">
+              <h2>популярні напрямки</h2>
+              <div class="title__text"><span class="text">Купити квиток на автобус просто: </span>
+                <ul class="white-marker__list">
+                  <li>3 кліки на пошук</li>
+                  <li>миттєва оплата</li>
+                </ul>
+              </div>
+            </div>
+            <div class="destinations__items">
+              <div class="destinations-item block-item">
+                <div class="block-item__img"> <picture><source srcset="img/countries/countrie-img1.webp" type="image/webp"><img src="img/countries/countrie-img1.png" alt=""/></picture></div>
+                <div class="block-item__text">
+                  <div class="block-item-title">ОДЕСА -<br/>БЛАГОДАТНЕ<span class="decor"></span></div>
+                  <div class="block-item-subtitle"><span>Відправлення: 08:30</span><span>Автобус: НЕОПЛАН 12</span></div>
+                  <div class="block-item-price">272.10 грн</div>
+                  <div class="block-item-btn__wrapper"><a class="block-item-btn button-box" href="#">купити</a></div>
+                </div>
+              </div>
+              <div class="destinations-item block-item">
+                <div class="block-item__img"> <picture><source srcset="img/countries/countrie-img1.webp" type="image/webp"><img src="img/countries/countrie-img1.png" alt=""/></picture></div>
+                <div class="block-item__text">
+                  <div class="block-item-title">ОДЕСА -<br/>БЛАГОДАТНЕ<span class="decor"></span></div>
+                  <div class="block-item-subtitle"><span>Відправлення: 08:30</span><span>Автобус: НЕОПЛАН 12</span></div>
+                  <div class="block-item-price">272.10 грн</div>
+                  <div class="block-item-btn__wrapper"><a class="block-item-btn button-box" href="#">купити</a></div>
+                </div>
+              </div>
+              <div class="destinations-item block-item">
+                <div class="block-item__img"> <picture><source srcset="img/countries/countrie-img1.webp" type="image/webp"><img src="img/countries/countrie-img1.png" alt=""/></picture></div>
+                <div class="block-item__text">
+                  <div class="block-item-title">ОДЕСА -<br/>БЛАГОДАТНЕ<span class="decor"></span></div>
+                  <div class="block-item-subtitle"><span>Відправлення: 08:30</span><span>Автобус: НЕОПЛАН 12</span></div>
+                  <div class="block-item-price">272.10 грн</div>
+                  <div class="block-item-btn__wrapper"><a class="block-item-btn button-box" href="#">купити</a></div>
+                </div>
+              </div>
+              <div class="destinations-item block-item">
+                <div class="block-item__img"> <picture><source srcset="img/countries/countrie-img1.webp" type="image/webp"><img src="img/countries/countrie-img1.png" alt=""/></picture></div>
+                <div class="block-item__text">
+                  <div class="block-item-title">ОДЕСА -<br/>БЛАГОДАТНЕ<span class="decor"></span></div>
+                  <div class="block-item-subtitle"><span>Відправлення: 08:30</span><span>Автобус: НЕОПЛАН 12</span></div>
+                  <div class="block-item-price">272.10 грн</div>
+                  <div class="block-item-btn__wrapper"><a class="block-item-btn button-box" href="#">купити</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news">
+          <div class="news__container">
+            <h2 class="simple">останні новини</h2>
+            <div class="news__items"> 
+              <div class="news-item block-item-small">
+                <div class="block-item-small__top"> 
+                  <div class="block-item-small-img"> <picture><source srcset="img/news/news-img1.webp" type="image/webp"><img src="img/news/news-img1.png" alt=""/></picture></div>
+                  <div class="block-item-small__top-text">
+                    <time>11.01.2023</time>
+                  </div>
+                </div>
+                <div class="block-item-small__text"> 
+                  <div class="block-item-small-title">Нова послуга від партнера міжнародного автовокзалу Одеса</div>
+                  <div class="block-item-small-btn__wrapper"><a class="block-item-small-btn button-box small" href="#">детальніше</a></div>
+                </div>
+              </div>
+              <div class="news-item block-item-small">
+                <div class="block-item-small__top"> 
+                  <div class="block-item-small-img"> <picture><source srcset="img/news/news-img2.webp" type="image/webp"><img src="img/news/news-img2.png" alt=""/></picture></div>
+                  <div class="block-item-small__top-text">
+                    <time>11.01.2023</time>
+                  </div>
+                </div>
+                <div class="block-item-small__text"> 
+                  <div class="block-item-small-title">Нові переваги покупки квитків онлайн!</div>
+                  <div class="block-item-small-btn__wrapper"><a class="block-item-small-btn button-box small" href="#">детальніше</a></div>
+                </div>
+              </div>
+              <div class="news-item block-item-small">
+                <div class="block-item-small__top"> 
+                  <div class="block-item-small-img"> <picture><source srcset="img/news/news-img3.webp" type="image/webp"><img src="img/news/news-img3.png" alt=""/></picture></div>
+                  <div class="block-item-small__top-text">
+                    <time>11.01.2023</time>
+                  </div>
+                </div>
+                <div class="block-item-small__text"> 
+                  <div class="block-item-small-title">На случай если текст будет слишком, нуу очень очень длинныым...</div>
+                  <div class="block-item-small-btn__wrapper"><a class="block-item-small-btn button-box small" href="#">детальніше</a></div>
+                </div>
+              </div>
+            </div><a class="news__view-all-btn button-box white" href="#">усі новини</a>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__row"> 
+            <div class="footer__left"> 
+              <div class="footer__left-icon"><picture><source srcset="img/icons/logo.webp" type="image/webp"><img src="img/icons/logo.png" alt=""/></picture></div>
+              <div class="footer__info">
+                <div class="footer__info-address site-address"> <a href="#">odessabus.com </a></div>
+                <div class="footer__info-text">Національна мережа автостанцій</div>
+                <div class="phone-block">
+                  <div class="phone-block-icon">
+                    <svg width="76" height="64" viewBox="0 0 76 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M45.5 32C49.6421 32 53 28.6421 53 24.5C53 20.3579 49.6421 17 45.5 17C41.3579 17 38 20.3579 38 24.5C38 25.6998 38.2817 26.8337 38.7826 27.8394C38.9157 28.1066 38.96 28.4121 38.8828 28.7005L38.4361 30.37C38.2422 31.0947 38.9053 31.7578 39.63 31.5639L41.2995 31.1172C41.5879 31.04 41.8934 31.0843 42.1606 31.2174C43.1663 31.7183 44.3002 32 45.5 32Z" stroke="#702A66" stroke-width="2"></path>
+                      <path d="M45.5 27.5L45.5 21.5M48.5 24.5L42.5 24.5" stroke="#702A66" stroke-width="2" stroke-linecap="round"></path>
+                      <path d="M41.1511 38.0408L40.426 37.3521L41.1511 38.0408ZM41.8342 37.3216L42.5593 38.0102L41.8342 37.3216ZM45.4592 36.8185L44.9604 37.6852H44.9604L45.4592 36.8185ZM48.325 38.468L47.8261 39.3347L48.325 38.468ZM49.1325 43.6376L49.8576 44.3263L49.1325 43.6376ZM47.0017 45.881L46.2766 45.1923L47.0017 45.881ZM45.0144 46.9446L45.1126 47.9398L45.0144 46.9446ZM30.223 40.2128L30.9481 39.5241L30.223 40.2128ZM23.0043 25.9489L22.0058 26.0025L22.0058 26.0025L23.0043 25.9489ZM32.7163 28.2547L33.4413 28.9434L32.7163 28.2547ZM32.9514 24.0396L33.7679 23.4623L32.9514 24.0396ZM31.0599 21.3644L30.2434 21.9417L30.2434 21.9417L31.0599 21.3644ZM26.3922 20.913L27.1172 21.6017V21.6016L26.3922 20.913ZM24.0378 23.3917L23.3127 22.703H23.3127L24.0378 23.3917ZM35.0947 35.0838L35.8197 34.3952L35.0947 35.0838ZM41.8761 38.7295L42.5593 38.0102L41.1092 36.6329L40.426 37.3521L41.8761 38.7295ZM44.9604 37.6852L47.8261 39.3347L48.8238 37.6013L45.9581 35.9518L44.9604 37.6852ZM48.4074 42.949L46.2766 45.1923L47.7267 46.5697L49.8576 44.3263L48.4074 42.949ZM44.9162 45.9495C42.7313 46.1651 37.0748 45.9743 30.9481 39.5241L29.498 40.9015C36.1116 47.8644 42.4092 48.2066 45.1126 47.9398L44.9162 45.9495ZM30.9481 39.5241C25.1125 33.3803 24.126 28.1883 24.0029 25.8953L22.0058 26.0025C22.1531 28.7481 23.3197 34.3968 29.498 40.9015L30.9481 39.5241ZM33.0111 29.3963L33.4413 28.9434L31.9912 27.566L31.561 28.0189L33.0111 29.3963ZM33.7679 23.4623L31.8764 20.7871L30.2434 21.9417L32.1348 24.617L33.7679 23.4623ZM25.6671 20.2243L23.3127 22.703L24.7628 24.0804L27.1172 21.6017L25.6671 20.2243ZM32.2861 28.7076C31.561 28.0189 31.5601 28.0199 31.5591 28.0209C31.5588 28.0212 31.5579 28.0222 31.5573 28.0229C31.556 28.0242 31.5547 28.0256 31.5534 28.0271C31.5507 28.0299 31.548 28.0329 31.5451 28.036C31.5394 28.0423 31.5334 28.049 31.527 28.0564C31.5142 28.0711 31.5 28.0881 31.4848 28.1074C31.4542 28.1459 31.4194 28.1937 31.3826 28.2512C31.3089 28.3664 31.2281 28.5194 31.1595 28.7124C31.02 29.1044 30.9418 29.6292 31.0387 30.2907C31.2295 31.5925 32.0869 33.3693 34.3696 35.7725L35.8197 34.3952C33.67 32.1318 33.1231 30.7205 33.0176 30.0008C32.9665 29.6516 33.0172 29.4573 33.0437 29.3829C33.058 29.3427 33.0695 29.3257 33.0673 29.3292C33.0662 29.3308 33.0619 29.3373 33.053 29.3485C33.0486 29.3541 33.043 29.3609 33.0361 29.3689C33.0326 29.3729 33.0288 29.3772 33.0247 29.3817C33.0226 29.384 33.0204 29.3864 33.0182 29.3888C33.017 29.39 33.0159 29.3912 33.0147 29.3925C33.0141 29.3931 33.0132 29.3941 33.0129 29.3944C33.012 29.3953 33.0111 29.3963 32.2861 28.7076ZM34.3696 35.7725C36.6464 38.1695 38.3481 39.092 39.6248 39.2994C40.2785 39.4055 40.8024 39.3201 41.195 39.1653C41.3872 39.0895 41.5385 39.0008 41.6512 38.9208C41.7074 38.8809 41.7539 38.8433 41.7912 38.8106C41.8098 38.7943 41.8262 38.7791 41.8403 38.7655C41.8474 38.7587 41.8539 38.7523 41.8599 38.7463C41.8628 38.7432 41.8657 38.7403 41.8684 38.7375C41.8698 38.7361 41.8711 38.7348 41.8724 38.7334C41.873 38.7328 41.874 38.7318 41.8743 38.7314C41.8752 38.7305 41.8761 38.7295 41.1511 38.0408C40.426 37.3521 40.4269 37.3512 40.4278 37.3502C40.4281 37.3499 40.429 37.3489 40.4296 37.3483C40.4308 37.3471 40.432 37.3459 40.4332 37.3447C40.4355 37.3423 40.4377 37.34 40.4399 37.3378C40.4443 37.3334 40.4484 37.3293 40.4522 37.3256C40.46 37.3182 40.4666 37.3121 40.4723 37.3071C40.4836 37.2972 40.4909 37.2917 40.4941 37.2895C40.5007 37.2848 40.4905 37.2932 40.4612 37.3048C40.4108 37.3246 40.2517 37.375 39.9454 37.3252C39.302 37.2207 37.9755 36.6648 35.8197 34.3952L34.3696 35.7725ZM31.8764 20.7871C30.3978 18.6958 27.4478 18.3496 25.6671 20.2243L27.1172 21.6016C27.9601 20.7143 29.4331 20.7957 30.2434 21.9417L31.8764 20.7871ZM24.0029 25.8953C23.9684 25.2535 24.2487 24.6217 24.7628 24.0804L23.3127 22.703C22.526 23.5313 21.9345 24.6749 22.0058 26.0025L24.0029 25.8953ZM46.2766 45.1923C45.8444 45.6474 45.3804 45.9037 44.9162 45.9495L45.1126 47.9398C46.1946 47.833 47.0754 47.2554 47.7267 46.5697L46.2766 45.1923ZM33.4413 28.9434C34.8492 27.4611 34.9516 25.1365 33.7679 23.4623L32.1348 24.617C32.8004 25.5584 32.703 26.8166 31.9912 27.566L33.4413 28.9434ZM47.8261 39.3347C49.1251 40.0823 49.3843 41.9205 48.4074 42.949L49.8576 44.3263C51.7574 42.3262 51.2055 38.9722 48.8238 37.6013L47.8261 39.3347ZM42.5593 38.0102C43.1782 37.3587 44.1425 37.2144 44.9604 37.6852L45.9581 35.9518C44.3592 35.0315 42.3791 35.2958 41.1092 36.6329L42.5593 38.0102Z" fill="#702A66"></path>
+                      <path d="M74 63H75V62V14C75 6.8203 69.1797 1 62 1H14C6.8203 1 1 6.8203 1 14V50C1 57.1797 6.8203 63 14 63H74Z" stroke="#702A66" stroke-width="2"></path>
+                    </svg>
+                  </div>
+                  <ul class="phone-block-numbers"> 
+                    <li> <a class="hover__effect-line" href="tel:380960304305">(096) 03 04 305</a></li>
+                    <li> <a class="hover__effect-line" href="tel:380800304305">(0800) 304 305</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer__right">
+              <div class="footer__menus">
+                <div class="footer__menu">
+                  <div class="footer__menu-title"><a href="#">odessabus.com</a></div>
+                  <ul class="footer__list">
+                    <li><a class="hover__effect-line" href="#">Партнерам</a></li>
+                    <li><a class="hover__effect-line" href="#">Тендери</a></li>
+                  </ul>
+                </div>
+                <div class="footer__menu">
+                  <div class="footer__menu-title"><a href="#">Про нас</a></div>
+                  <ul class="footer__list">
+                    <li> <a class="hover__effect-line" href="#">Розклад</a></li>
+                    <li> <a class="hover__effect-line" href="#">Корисна інформація</a></li>
+                    <li> <a class="hover__effect-line" href="#">Питання / відповіді</a></li>
+                    <li> <a class="hover__effect-line" href="#">Новини</a></li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="footer__socials">
+                <li class="footer-social"><a href="#"><img src="img/icons/instagram.svg" alt=""/></a></li>
+                <li class="footer-social"><a href="#"><img src="img/icons/facebook.svg" alt=""/></a></li>
+              </ul><small class="footer-copy">© Всі права захищені.</small>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div><!-- <div id="popup" aria-hidden="true" class="popup">
+<div class="popup__wrapper">
+<div class="popup__content">
+<button data-close type="button" class="popup__close">Закрыть</button>
+<div class="popup__text">
+    <Text></Text></div>
+</div>
+</div>
+</div> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230404203028"></script>
+    <script src="js/app.js?_v=20230404203028"></script>
+  </body>
+</html>
